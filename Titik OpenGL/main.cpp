@@ -93,6 +93,8 @@ void reshape(GLsizei width, GLsizei height) {  // GLsizei for non-negative integ
 	5) Make Display function to repaint the window			-> glutDisplayFunc(yourFunctionName)
 	6) Make reshape if have animation						-> glutReshapeFunc(yourFunctionName)
 	7) Looping to create GL (Running Processor)				-> glutMainLoop()
+
+	reference : http://www3.ntu.edu.sg/home/ehchua/programming/opengl/cg_introduction.html#zz-1.1
 */
 
 int main(int argc, char** argv)
