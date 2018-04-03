@@ -83,6 +83,18 @@ void reshape(GLsizei width, GLsizei height) {  // GLsizei for non-negative integ
 	}
 }
 
+/*
+	SEQUENCE MAIN GL:
+
+	1) Initialize GLUT First								-> glutInit(&argc , argv)
+	2) Set the window size									-> glutInitWindowSize(x , y)
+	3) Set the Initial Starting Window on your screen		-> glutInitWindowPosition(x , y)
+	4) Create Window with Title								-> glutCreateWindow("String here")
+	5) Make Display function to repaint the window			-> glutDisplayFunc(yourFunctionName)
+	6) Make reshape if have animation						-> glutReshapeFunc(yourFunctionName)
+	7) Looping to create GL (Running Processor)				-> glutMainLoop()
+*/
+
 int main(int argc, char** argv)
 {
 	glutInit(&argc, argv); // Initialize GLUT
